@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="kr.soen.practice8.MainActivity">
+    <com.kr.soen.practice8.TopWidget
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topwidget"
+        />
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </GridView>
+
+    <com.kr.soen.practice8.BottomWidget
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomwidget"
+    />
+
+
+</LinearLayout>
